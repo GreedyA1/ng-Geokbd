@@ -2,15 +2,15 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
-import { GeokbdDirective } from './directives/geokbd.directive';
+import { GeoKBDModule } from 'projects/geo-kbd/src/public-api';
 
 @NgModule({
   declarations: [
-    AppComponent,
-    GeokbdDirective
+    AppComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    GeoKBDModule
   ],
   providers: [],
   bootstrap: [AppComponent]

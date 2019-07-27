@@ -119,6 +119,41 @@
           }
         }
       }
+    },
+    "GeoKBD": {
+      "projectType": "library",
+      "root": "projects/geo-kbd",
+      "sourceRoot": "projects/geo-kbd/src",
+      "prefix": "lib",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-ng-packagr:build",
+          "options": {
+            "tsConfig": "projects/geo-kbd/tsconfig.lib.json",
+            "project": "projects/geo-kbd/ng-package.json"
+          }
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "projects/geo-kbd/src/test.ts",
+            "tsConfig": "projects/geo-kbd/tsconfig.spec.json",
+            "karmaConfig": "projects/geo-kbd/karma.conf.js"
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "projects/geo-kbd/tsconfig.lib.json",
+              "projects/geo-kbd/tsconfig.spec.json"
+            ],
+            "exclude": [
+              "**/node_modules/**"
+            ]
+          }
+        }
+      }
     }},
   "defaultProject": "ng-GeoKBD"
 }
