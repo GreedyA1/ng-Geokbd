@@ -1,2 +1,5 @@
-# ng-Geokbd
-idea from https://github.com/ioseb/geokbd 
+# Angular-Geokbd
+idea from js https://github.com/ioseb/geokbd 
+
+ქართული კლავიატურის directive. 
+Input-ზე ინგლისური ტექსტიდან ავტომატურად გადაყავს ქართულზე.
