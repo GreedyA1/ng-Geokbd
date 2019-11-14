@@ -1,4 +1,4 @@
-# Angular-Geokbd
+# Angular-Geokbd [![npm version](https://badge.fury.io/js/geo-kbd.svg)](https://badge.fury.io/js/geo-kbd)
 idea from js https://github.com/ioseb/geokbd 
 
 ქართული კლავიატურის directive. 
